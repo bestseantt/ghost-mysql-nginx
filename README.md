@@ -1,1 +1,1 @@
-# ghost-mysql-nginx
+# ghost+mysql+nginx
