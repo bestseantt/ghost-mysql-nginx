@@ -18,7 +18,7 @@ services:
       - database__client=mysql
       - database__connection__host=mysql
       - database__connection__user=root
-      - database__connection__password=6omtOILMUgWirwbH
+      - database__connection__password=password
       - database__connection__database=ghost
     volumes:
       - /data/ghost:/var/lib/ghost
@@ -32,7 +32,7 @@ services:
     expose:
       - 3306
     environment:
-      - MYSQL_ROOT_PASSWORD=6omtOILMUgWirwbH
+      - MYSQL_ROOT_PASSWORD=password
     volumes:
       - /data/mysql:/var/lib/mysql
 
